@@ -1,0 +1,20 @@
+.dashboard-analytics {
+  display: flex;
+  flex-direction: column;
+  gap: var(--common-gap);
+  width: 70%;
+  padding: 40px 56px;
+  /* flex: 2; */
+  overflow-y: auto;
+  height: 100vh;
+}
+
+.dashboard-analytics::-webkit-scrollbar {
+  display: none;
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--common-gap);
+}

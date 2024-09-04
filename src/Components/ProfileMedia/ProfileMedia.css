@@ -1,0 +1,34 @@
+.profile-media-container {
+  display: flex;
+  width: 100%;
+  height: 150px;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  border-radius: 10px;
+
+  h2 {
+    margin-top: 20px;
+    margin-bottom: 0px;
+    font-weight: 400;
+    font-size: 36px;
+  }
+  h4 {
+    margin: 0px;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(129, 129, 129, 1);
+  }
+}
+
+.list-conatiner {
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  svg {
+    padding: 4px;
+    height: 40px;
+    width: 40px;
+    margin-left: 5px;
+  }
+}

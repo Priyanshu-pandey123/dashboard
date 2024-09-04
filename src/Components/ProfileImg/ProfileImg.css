@@ -1,0 +1,10 @@
+.profile-img{
+    margin: 0px;
+    padding: 0px;
+}
+
+.profile-img img{
+    width: 100%;
+    max-width: 100%;
+    display: block;
+}

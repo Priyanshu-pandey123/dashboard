@@ -1,0 +1,29 @@
+.label-icon-container{
+    width: fit-content;
+    height: fit-content;
+    padding: 12px 16px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius:22px ;
+    background: var(--c-grey);
+    font-size: 12px;
+    color: black;
+    gap: 6px;
+
+    svg{
+        width: 15px;
+        height: 15px;
+    }
+}
+
+.label-icon-container span{
+    font-family:sans-serif;
+    /* margin: 2px; */
+    font-weight: 400;
+}
+
+.icon-title{
+    font-weight: 600;
+    font-size: 16px;
+}

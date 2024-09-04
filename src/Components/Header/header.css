@@ -1,0 +1,30 @@
+.header-container {
+  /* padding: 15px; */
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-title span {
+  font-weight: 400;
+  font-size: 36px;
+  font-family: "Tangosans", sans-serif;
+}
+
+.header-icon-label {
+  display: flex;
+  gap: var(--common-gap-small);
+
+  .insta {
+    background: linear-gradient(
+      45deg,
+      #feda75,
+      #fa7e1e,
+      #d62976,
+      #962fbf,
+      #4f5bd5
+    );
+    color: white;
+  }
+}
